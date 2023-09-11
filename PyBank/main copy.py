@@ -73,12 +73,12 @@ with open(Budget_data_csv, 'r') as csvfile:
 text_file_path="PyBank\\Analysis\\Analysis.txt"
 with open(text_file_path,'w') as text_result:
 
-     text_result.print("Total Months:" + " " + str(total_m)) 
-     text_result.print("Total:" +" " +"$"+str(total_net_amount))    
+     print("Total Months:" + " " + str(total_m), file=text_result) 
+     print("Total:" +" " +"$"+str(total_net_amount),file=text_result)    
     # print(change)  
-     text_result.print("Average Change:" + " " + "$"+str(average))
-     text_result.print(f"Greatest Increase in Profits: {max_date} (${max_value})")
-     text_result.print(f"Greatest Decerease in Profits: {min_date} (${min_value})")
+     print("Average Change:" + " " + "$"+str(average),file=text_result)
+     print(f"Greatest Increase in Profits: {max_date} (${max_value})",file=text_result)
+     print(f"Greatest Decerease in Profits: {min_date} (${min_value})",file=text_result)
     
 
 
