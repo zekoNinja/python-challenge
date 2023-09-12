@@ -24,6 +24,9 @@ The greatest decrease in profits (date and amount) over the entire period
 Your analysis should align with the following results:"
 
 
+Part 1 result in the text file:
+![image](https://github.com/zekoNinja/python-challenge/assets/141674216/08b4bace-8de7-467d-829f-68236a831e4e)
+
 
 
 Part 2: 
@@ -45,5 +48,8 @@ The total number of votes each candidate won
 The winner of the election based on popular vote
 
 Your analysis should align with the following results:"
+
+part 2 results in a text file
+![image](https://github.com/zekoNinja/python-challenge/assets/141674216/d64334d8-336a-49b6-a8a8-5e81f34af3e1)
 
 
